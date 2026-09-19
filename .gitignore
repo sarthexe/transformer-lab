@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.venv/
+venv/
+
+# Training artifacts and the prepared corpus: regenerate with
+# backend/data/prepare.py and backend/train.py.
+checkpoints/
+backend/data/*.bin
+backend/data/vocab.json
+backend/data/stats.json
